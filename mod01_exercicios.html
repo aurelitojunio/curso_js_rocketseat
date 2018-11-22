@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso_JS_Rocketseat</title>
+</head>
+<body>
+    <h1>Introdução ao JavaScript</h1>
+
+    <script>
+        
+        // 1. Crie uma função que dado o objeto a seguir:
+        // O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293.
+        var endereco = {
+            rua: 'Rua dos pinheiros',
+            numero: 1293,
+            bairro: 'Centro',
+            cidade: 'São Paulo',
+            uf: 'SP'
+        };        
+        console.log('O usuário mora em '+ endereco.cidade + ' / ' + endereco.uf + ', no bairro ' + endereco.bairro +', na rua "' + endereco.rua + '" com nº ' + endereco.numero + '.');
+
+        // 2. Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
+        function pares(x, y) {
+            // Solução utilizando repetição FOR
+            // for (i = x; i <= y; i++) {
+            //     if (i % 2 == 0) {
+            //         console.log(i);
+            //     }
+            // }
+            // Solução utilizando repetição WHILE
+            // while (x <= y) {
+            //     if (x % 2 == 0) {
+            //         console.log(x);
+            //     }
+            //     x++;
+            // }
+            // Solução utilizando repetição DO WHILE
+            // do {
+            //     if (x % 2 == 0) {
+            //         console.log(x);
+            //     }
+            //     x++;
+            // } while (x <= y);
+        }
+        pares(32, 321);
+
+
+    </script>
+
+</body>
+</html>

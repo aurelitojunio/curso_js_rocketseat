@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso_JS_Rocketseat</title>
+</head>
+<body>
+    <h1>Introdução ao JavaScript</h1>
+
+    <script>
+        // A tag script é necessária para apontar os códigos em JavaScript
+        
+        //Imprime no console do navegador
+        // alert('Olá, mundo');
+        
+        //Imprime no console do navegador
+        console.log('Olá, mundo');
+
+        // Declaração de variáveis
+        var x = 10;
+        var y = 5;
+        console.log(x + y);
+
+        // Ou
+        var z = 17, t = '10';
+
+        //Função
+        function somaValores(v1, v2) {
+            return v1 + v2;
+        }
+        var resultado = somaValores(z, t); // O resultado será 1710, pois o JS não soma texto com número, mas sim concatena-os
+        console.log(resultado);
+
+        // Variáveis comuns
+        var nome = 'Diego';
+        var idade = 32;
+        var peso = 80.5;
+        var casado = false;
+
+        console.log(nome, idade, peso, casado);
+        
+        // Variáveis do tipo ARRAY
+        var arrAlunos = ['Diego', 'Gabriel', 'Lucas']
+        console.log(arrAlunos); // chamada no array completo
+        console.log(arrAlunos[0]); // chamada no índice do array
+
+        // Variáveis do tipo OBJETO
+        var objAluno = {
+            nome: 'Aurelito',
+            idade: 33,
+            peso: 63.5,
+            casado: true
+        };
+        console.log(objAluno); // Chamada do objeto
+        console.log(objAluno.peso); // Chamada em um atributo de um objeto
+
+
+    </script>
+
+</body>
+</html>

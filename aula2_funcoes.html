@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso_JS_Rocketseat</title>
+</head>
+<body>
+    <h1>Introdução ao JavaScript</h1>
+
+    <script>
+        // Função simples
+        function retornaSexo(sexo) {
+            if (sexo == 'M') {
+                return 'Masculino';
+            } else {
+                return 'Feminino';
+            }
+        }
+        var sexo = retornaSexo('F');
+        console.log(sexo);
+
+        // Operador ternário
+        var sexo2 = (sexo == 'Masculino') ? 'Masc' : 'Fem';
+        console.log(sexo2);
+
+        // Função com 'else if'
+        function retornaSexo2(sexo) {
+            if (sexo == 'M') {
+                return 'Masculino';
+            } else if (sexo == 'F') {
+                return 'Feminino';
+            } else {
+                return 'Indefinido';
+            }
+        }
+        var sexo2 = retornaSexo2('d');
+        console.log(sexo2);
+
+        // Função Switch
+        function retornaSexo3(sexo) {
+            switch (sexo) {
+                case 'M':
+                    return 'fnSwitch: Masculino'
+                    break;
+                case 'F':
+                    return 'fnSwitch: Feminino'
+                default:
+                    return 'fnSwitch: Indefinido'
+                    break;
+            }
+        }
+        var sexo3 = retornaSexo3('M');
+        console.log(sexo3);
+
+        // Utilizando operadores lógicos
+        function name(params) {
+            
+        }
+    </script>
+
+</body>
+</html>
